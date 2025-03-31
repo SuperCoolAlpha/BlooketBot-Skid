@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="https://cdn.glitch.global/50648a61-8fe9-4ce0-a01c-baff9438bbf2/bblogo.png">
+    <title>Credits</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700|Titan+One|Creepster|Satisfy|Eczar:700">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100vh;
+            background-color: rgb(9, 148, 65);
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bg {
+            z-index: -9999;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(15deg);
+            opacity: .08;
+            background-image: url('https://cdn.glitch.global/50648a61-8fe9-4ce0-a01c-baff9438bbf2/checker.png');
+            background-size: 550px;
+            width: 400%;
+            height: 400%;
+        }
+
+        .credits {
+            z-index: 1;
+            font-family: 'Titan One', sans-serif;
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .credits a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .credits a:hover {
+            text-decoration: underline;
+        }
+        
+        .redirect-button {
+            height: 60px;
+            width: 250px;
+            cursor: pointer;
+            overflow: hidden;
+            outline: none;
+            background-color: #fff;
+            padding-bottom: 6px;
+            box-shadow: inset 0 -6px #0003, 0 0 4px #00000026;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .2s;
+            z-index: 1;
+            border: none;
+        }
+      
+        .redirect-button:hover {
+            transform: scale(.9);
+        }
+
+        .button-text {
+            font-size: 24px;
+            color: #5f5f5f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="credits">to the guy named LebronsBoobies or mustard4184 on tiktok, this is proof that generic's friend made the website 
+        Created by:
+      <a href="https://www.youtube.com/@crypto.7562" target="_blank">Ducklife3141 (Owner)</a><br>
+
+        <a href="https://glitch.com/@xgeneric" target="_blank">xgeneric</a><br>
+      
+              <a href="https://glitch.com/@hijktr78" target="_blank">hijktr78</a> <!-- I dont have any idea who that is -CatHead --><br>
+
+              <a href="https://glitch.com/@TheAmazingAceLeo" target="_blank">TheAmazingAceLeo</a> <!-- I dont have any idea who that is -CatHead -->
+
+        <br>
+        <a href="https://glitch.com/@phillipdelphias" target="_blank">phillipdelphias</a>
+        <br>
+        <a href="https://discord.com/users/929637984981094431" target="_blank">CatHead</a>
+    
+        <br>
+        <a href="https://discord.gg/8A6J234n7v" target="_blank">Join the discord server!</a>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><button class="redirect-button" onclick="window.location.href='https://blooketbot.glitch.me'">
+        <center class="button-text">Go to Main Site</center>
+      </button>
+</body>
+</html>
